@@ -9,6 +9,7 @@ Make sure to open up the terminal, and run from the /Fooocus directory:
 ```
 python entry_with_update.py --share --listen
 ```
+(Note, running the python entry_with_update.py makes a git request to the main repository and updates the repository / image with the newest git changes if needed)
 
 This will give you a live link.
 
