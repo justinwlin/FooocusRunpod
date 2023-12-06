@@ -64,3 +64,17 @@ Using xformers cross attention
 Refiner unloaded.
 Running on public URL: https://83ebfeb801ad1d20d8.gradio.live
 ```
+
+# Note
+If you want to build this yourself, and you are on a Mac or something, you can use something like depot:
+
+https://depot.dev/
+```
+depot build -t justinwlin/fooocus:1.0 . --push --platform linux/amd64
+```
+
+Breakdown of the command:
+```
+depot build -t yourdockerusername/yourimagename:yourversionnumber . --push --platform linux/amd64
+```
+
