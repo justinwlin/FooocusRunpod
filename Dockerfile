@@ -7,10 +7,10 @@ RUN apt-get update && apt-get upgrade -y && apt-get clean && rm -rf /var/lib/apt
 # Set the working directory to /
 WORKDIR /
 
-# Clone the Fooocus repository into the workspace directory
+# Clone the Fooocus repository into the / directory
 RUN git clone https://github.com/lllyasviel/Fooocus.git
 
-# Change the working directory to /workspace/Fooocus
+# Change the working directory to /Fooocus
 WORKDIR /Fooocus
 
 # Install Python dependencies
